@@ -1,4 +1,3 @@
-
 ;;; This file bootstraps the configuration, which is divided into
 ;;; a number of other files.
 
@@ -111,6 +110,8 @@
 (when *is-a-mac*
   (require-package 'osx-location))
 (require-package 'regex-tool)
+(require 'init-ensime)
+(require 'init-evil)
 
 ;;----------------------------------------------------------------------------
 ;; Allow access from emacsclient

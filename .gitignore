@@ -17,7 +17,6 @@ cookies
 /newsticker
 /ac-comphist.dat
 \#*
-/elpa
 site-lisp/package/
 /swank
 /.mc-lists.el
@@ -37,3 +36,5 @@ site-lisp/package/
 /.sx/
 /org-clock-save.el
 /ditaa.jar
+projectile-bookmarks.eld
+projectile.cache
